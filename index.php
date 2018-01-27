@@ -71,7 +71,9 @@ for ( $i = 0; $i < $n; $i++ ) {
 						<div class="appartment__text">
 							<p><?php echo $value[description]; ?></p>
 						</div>
-						<div class="appartment__footer"><a class="button button--appartment" href="appartment-page.html">Details</a>
+						<?php /*
+						<div class="appartment__footer">
+							<a class="button button--appartment" href="appartment-page.html">Details</a>
 							<div class="appartment__options">
 								<div class="tag">air condition</div>
 								<div class="tag">free wi-fi</div>
@@ -79,6 +81,7 @@ for ( $i = 0; $i < $n; $i++ ) {
 								<div class="tag">flat TV</div>
 							</div>
 						</div>
+						*/ ?>
 					</div>
 				</div>
 				<?php
